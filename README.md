@@ -11,6 +11,12 @@ Community patches for RTB
 
 RaceTrackBuilder is obfuscated, meaning class and member names may change with each update. The patches currently rely on hardcoded names, so they typically need to be updated for most RTB releases. An alternative approach is to target unique class and member signatures, but this makes locating and debugging issues significantly more difficult when those signatures change. We are actively working on a more robust solution.
 
+## Installation:
+
+* Automatic: Download <a href="https://raw.githubusercontent.com/RTBModding/CommunityPatches/refs/heads/main/InstallCommunityPatches.bat" download>InstallCommunityPatches.bat</a>, place it in the Race Track Builder main folder and execute it. It will download the latest release from github and unblock it for you.
+* Manual: Either download the release [CommunityPatches.dll](https://github.com/RTBModding/CommunityPatches/releases/latest/download/CommunityPatches.dll) file and place it in `Race Track Builder\Plugins\Height\CommunityPatches.dll` (make sure to unblock the file in the file properties or it wont get loaded)
+
+
 
 ## Current patches:
 
