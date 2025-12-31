@@ -10,7 +10,7 @@ using SharpDX.Windows;
 [HarmonyPatch(typeof(Application), "ProductVersion", MethodType.Getter)]
 class Patch_ProductVersion_Getter
 {
-    static void Postfix(ref string __result) => __result += " - SLX MOD";
+    static void Postfix(ref string __result) => __result += " - SLX CommunityPatches";
 }
 
 
