@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net48</TargetFramework>
+        <LangVersion>10.0</LangVersion>
+        <OutputType>Library</OutputType>
+        <PlatformTarget>x64</PlatformTarget>
+        <!--<RuntimeIdentifier>win-x64</RuntimeIdentifier>-->
+        <Prefer32Bit>false</Prefer32Bit>
+        <!-- ensures DLL output -->
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>disable</ImplicitUsings>
+        <!-- implicit usings not supported on .NET Framework -->
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+        <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    </PropertyGroup>
+    <ItemGroup>
+        <Reference Include="System.Windows.Forms" />
+        <Reference Include="0Harmony">
+            <HintPath>hooklibs\0Harmony.dll</HintPath>
+        </Reference>
+        <Reference Include="RaceTrackBuilder.exe">
+            <HintPath>../../RaceTrackBuilder.exe</HintPath>
+        </Reference>
+        <Reference Include="RaceBits">
+            <HintPath>../../RaceBits.dll</HintPath>
+        </Reference>
+        <Reference Include="RTBPlugins">
+            <HintPath>../../RTBPlugins.dll</HintPath>
+        </Reference>
+        <Reference Include="SharpDX.dll">
+            <HintPath>../../SharpDX.dll</HintPath>
+        </Reference>
+    </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="ILMerge"
+                          Version="3.0.41" />
+    </ItemGroup>
+</Project>
