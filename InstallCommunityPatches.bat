@@ -1,3 +1,16 @@
+REM    _____ _______ ____  _____    _____  _____ _____ _    _ _______   _    _ ______ _____  ______ 
+REM   / ____|__   __/ __ \|  __ \  |  __ \|_   _/ ____| |  | |__   __| | |  | |  ____|  __ \|  ____|
+REM  | (___    | | | |  | | |__) | | |__) | | || |  __| |__| |  | |    | |__| | |__  | |__) | |__   
+REM   \___ \   | | | |  | |  ___/  |  _  /  | || | |_ |  __  |  | |    |  __  |  __| |  _  /|  __|  
+REM   ____) |  | | | |__| | |      | | \ \ _| || |__| | |  | |  | |    | |  | | |____| | \ \| |____ 
+REM  |_____/   |_|  \____/|_|      |_|  \_\_____\_____|_|  |_|  |_|    |_|  |_|______|_|  \_\______|
+REM
+REM When you are seeing this text, you probably did not right-click the download link to
+REM select "Save link as...". Please go back and do so.
+                                                                                                
+                                                                                                
+
+
 @echo off
 
 if not exist "RaceTrackBuilder.exe" (

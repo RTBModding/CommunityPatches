@@ -13,7 +13,7 @@ RaceTrackBuilder is obfuscated, meaning class and member names may change with e
 
 ## Installation:
 
-* Automatic: Download <a href="https://raw.githubusercontent.com/RTBModding/CommunityPatches/refs/heads/main/InstallCommunityPatches.bat" download>InstallCommunityPatches.bat</a>, place it in the Race Track Builder main folder and execute it. It will download the latest release from github and unblock it for you.
+* Automatic: Right-click this link: <a href="https://raw.githubusercontent.com/RTBModding/CommunityPatches/refs/heads/main/InstallCommunityPatches.bat" download>InstallCommunityPatches.bat</a> and select "Save link as...", save it in the Race Track Builder main folder and execute it. It will download the latest release from github and unblock it for you.
 * Manual: Download the release [CommunityPatches.dll](https://github.com/RTBModding/CommunityPatches/releases/latest/download/CommunityPatches.dll) file and place it in `Race Track Builder\Plugins\Height\CommunityPatches.dll` (make sure to unblock the file in the file properties or it wont get loaded)
 
 
